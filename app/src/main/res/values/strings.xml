@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DatabaseCenter</string>
+    <string name="id">ID</string>
+    <string name="full_name">Full Name</string>
+    <string name="mob_number">Mob Number</string>
+    <string name="find_id">Find ID</string>
+    <string name="submit">submit</string>
+    <string name="display_text_view">Display Text View</string>
+</resources>
