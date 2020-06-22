@@ -77,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fullNameEditText" />
 
     <Button
-        android:id="@+id/addBtn"
+        android:id="@+id/showDataBtn"
         style="@style/buttonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -93,18 +93,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/submit"
-        app:layout_constraintTop_toBottomOf="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@+id/showDataBtn"
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/displayTextView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="200dp"
         android:gravity="center"
         android:padding="20dp"
         android:text="@string/display_text_view"
         android:textSize="18sp"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/submitBtn"
         app:layout_constraintVertical_bias="0.0"
@@ -115,8 +115,9 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/displayTextView"
+        app:layout_constraintEnd_toEndOf="@+id/displayTextView"
+        app:layout_constraintStart_toStartOf="@+id/displayTextView"
         app:layout_constraintTop_toBottomOf="@+id/submitBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
