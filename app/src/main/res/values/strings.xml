@@ -6,4 +6,8 @@
     <string name="find_id">Show Data</string>
     <string name="submit">submit</string>
     <string name="display_text_view">Display Text View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agreementText">Agree with</string>
+    <string name="termsandcondition">www.google.com</string>
 </resources>

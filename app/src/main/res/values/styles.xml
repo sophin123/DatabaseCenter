@@ -21,4 +21,10 @@
         <item name="android:background">@android:color/background_light</item>
     </style>
 
+    <style name="registerEditText">
+        <item name="android:backgroundTint">@android:color/holo_blue_light</item>
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
 </resources>
